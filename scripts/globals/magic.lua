@@ -518,10 +518,8 @@ end
 
 -- Applies resistance for additional effects
 function applyResistanceAddEffect(player, target, element, bonus)
-
-    local p = getMagicHitRate(player, target, 0, element, 0, bonus)
-
-    return getMagicResist(p)
+	-- Use a normal distribution for additional effects
+    return getMagicResist(50)
 end
 
 function getMagicHitRate(caster, target, skillType, element, effectRes, bonusAcc, dStat)
