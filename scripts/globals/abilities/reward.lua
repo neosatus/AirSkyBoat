@@ -80,7 +80,7 @@ ability_object.onUseAbility = function(player, target, ability, action)
             regenAmount = 11
             totalHealing = math.floor(minimumHealing + 2*(playerMnd-45))
             itemLevel = 60
-             end,
+            end,
         [17021] = function (x) -- pet food zeta biscuit
             minimumHealing = 900
             regenAmount = 14
