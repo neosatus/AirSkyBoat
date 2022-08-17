@@ -144,11 +144,10 @@ ability_object.onUseAbility = function(player, target, ability, action)
     end
 
     -- Handle Gear Sync
-    if (itemLevel > 0 and playerLevel < itemLevel)
-    {
+    if (itemLevel > 0 and playerLevel < itemLevel) then
         totalHealing = totalHealing * (playerLevel / itemLevel);
         regenAmount = regenAmount * (playerLevel / itemLevel);
-    }
+    end
 
     local diff = petMaxHP - petCurrentHP
     if (diff < totalHealing) then
