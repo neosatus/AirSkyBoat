@@ -1100,12 +1100,12 @@ xi.chocoboDig.start = function(player, precheck)
     -- make sure the player can dig before going any further
     -- (and also cause i need a return before core can go any further with this)
     if canDig(player) == true then
-    local roll         = math.random(0, 100)
-    local moon                  = VanadielMoonPhase()
-    local moonmodifier          = 1
-    local skillmodifier = 0.5 + (skillRank / 20) -- 50% at amateur, 55% at recruit, 60% at initiate, and so on, to 100% at exper
-    local zonedug       = '[DIG]ZONE'..player:getZoneID()..'_ITEMS'
-    local zoneDugCurrent        = GetServerVariable(zonedug)
+        local roll         = math.random(0, 100)
+        local moon                  = VanadielMoonPhase()
+        local moonmodifier          = 1
+        local skillmodifier = 0.5 + (skillRank / 20) -- 50% at amateur, 55% at recruit, 60% at initiate, and so on, to 100% at exper
+        local zonedug       = '[DIG]ZONE'..player:getZoneID()..'_ITEMS'
+        local zoneDugCurrent        = GetServerVariable(zonedug)
 
         if moon < 50 then
             moon = 100 - moon -- This converts moon phase percent to a number that represents how FAR the moon phase is from 50
