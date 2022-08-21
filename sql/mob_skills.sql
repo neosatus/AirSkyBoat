@@ -53,6 +53,10 @@ INSERT INTO `mob_skills` VALUES (40,9,'vorpal_blade',0,7.0,2000,0,4,0,0,0,5,8,0)
 INSERT INTO `mob_skills` VALUES (41,10,'swift_blade',0,7.0,2000,0,4,0,0,0,9,0,0);
 INSERT INTO `mob_skills` VALUES (42,11,'savage_blade',0,7.0,2000,0,4,0,0,0,9,0,0);
 INSERT INTO `mob_skills` VALUES (49,107,'power_slash',0,10,2000,500,4,0,0,0,1,0,0);
+INSERT INTO `mob_skills` VALUES (50,108,'frostbite',0,10,2000,500,4,0,0,0,1,0,0);
+INSERT INTO `mob_skills` VALUES (51,109,'freezebite',0,10,2000,500,4,0,0,0,1,0,0);
+-- INSERT INTO `mob_skills` VALUES (52,110,'shockwave',0,10,2000,500,4,0,0,0,1,0,0);
+INSERT INTO `mob_skills` VALUES (53,111,'crescent_moon',0,10,2000,500,4,0,0,0,1,0,0);
 INSERT INTO `mob_skills` VALUES (54,112,'sickle_moon',0,10,2000,500,4,0,0,0,4,8,0);
 INSERT INTO `mob_skills` VALUES (56,114,'ground_strike',0,10,2000,500,4,0,0,0,12,10,0);
 INSERT INTO `mob_skills` VALUES (86,97,'raging_rush',0,7.0,2000,0,4,0,0,0,9,0,0);
@@ -139,7 +143,7 @@ INSERT INTO `mob_skills` VALUES (302,46,'wild_oats',0,7.0,2000,1500,4,0,0,0,0,0,
 INSERT INTO `mob_skills` VALUES (304,48,'photosynthesis',0,7.0,2000,1500,1,0,0,0,0,0,0);
 INSERT INTO `mob_skills` VALUES (305,49,'leaf_dagger',0,7.0,2000,1500,4,0,0,0,0,0,0);
 INSERT INTO `mob_skills` VALUES (306,50,'scream',1,15.0,2000,1500,4,0,0,0,0,0,0);
-INSERT INTO `mob_skills` VALUES (307,439,'substitute',0,7.0,2000,1500,4,0,0,0,0,0,0);
+INSERT INTO `mob_skills` VALUES (307,439,'substitute',0,7.0,2000,0,4,0,0,0,0,0,0);
 INSERT INTO `mob_skills` VALUES (308,52,'frogkick',0,7.0,2000,1500,4,0,0,0,0,0,0);
 INSERT INTO `mob_skills` VALUES (309,53,'spore',0,7.0,2000,1500,4,0,0,0,0,0,0);
 INSERT INTO `mob_skills` VALUES (310,54,'queasyshroom',0,7,2000,1500,4,0,0,0,0,0,0);
@@ -228,7 +232,7 @@ INSERT INTO `mob_skills` VALUES (392,136,'ultrasonics',1,16.0,2000,1000,4,0,0,0,
 INSERT INTO `mob_skills` VALUES (393,137,'sonic_boom',1,12.5,2000,1500,4,0,0,0,0,0,0);
 INSERT INTO `mob_skills` VALUES (394,138,'blood_drain',0,7.0,2000,1500,4,0,0,0,0,0,0);
 INSERT INTO `mob_skills` VALUES (395,139,'jet_stream',0,7.0,2000,1500,4,0,0,0,0,0,0);
--- INSERT INTO `mob_skills` VALUES (396,140,'smite_of_fury',0,7.0,2000,1500,4,0,0,0,0,0,0);
+INSERT INTO `mob_skills` VALUES (396,275,'smite_of_fury',0,7.0,2000,1500,4,0,0,0,0,0,0);
 INSERT INTO `mob_skills` VALUES (397,276,'flurry_of_rage',0,7.0,2000,1500,4,0,0,0,0,0,0);
 INSERT INTO `mob_skills` VALUES (398,277,'whispers_of_ire',1,7.0,2000,1500,4,0,0,0,0,0,0);
 INSERT INTO `mob_skills` VALUES (399,143,'scratch',0,7.0,2000,1500,4,0,0,0,0,0,0);
